@@ -23,6 +23,10 @@ header{
     display: inline-block;
     color: white;
 }
+.nav:hover{
+    text-decoration: underline;
+    font-size: 24px;
+}
 .hd1{
     width: 80%;
     display: flex;
@@ -181,13 +185,27 @@ header{
     display: inline-block;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color:rgb(130, 59, 245) ;
 }
 #prt32{
+    /* image of phone */
     height: 80%;
     width: 40%;
     display: inline-block;
+    /* position: absolute; */
+    /* animation: anime 5s linear 0s 1; */
+}
+#prt32:hover{
+    animation: anime 5s linear 0s 1 ;
+}
+@keyframes anime {
+    from{
+        transform: rotatey(45deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
 }
 .ins{
     border: 2px solid plum;
@@ -195,6 +213,9 @@ header{
     margin-bottom: 15px;
     padding: 20px 0px 20px 10px;
     font-size: 22px;
+}
+.ins:hover{
+    background-color: rgba(236, 202, 251, 0.415);
 }
 .prt312{
     width: fit-content;
@@ -204,10 +225,9 @@ header{
     color: white;
     font-size: 21px;
     border-radius: 15px;
-    /* border: none; */
 }
 .prt312:hover{
-    background-color: rgb(116, 34, 249);
+    background-color: rgb(108, 21, 249);
 }
 /* part4 */
 #prt4{
@@ -234,12 +254,26 @@ header{
     width: 40%;
     display: inline-block;
 }
+#prt42:hover{
+    animation: anime2 5s linear 0s 1;
+}
+@keyframes anime2{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
 .insi{
     border: 2px solid rgb(147, 219, 245);
     border-radius: 8px;
     margin-bottom: 15px;
     padding: 20px 0px 20px 10px;
     font-size: 22px;
+}
+.insi:hover{
+    background-color: rgba(117, 227, 252, 0.422);
 }
 .prt412{
     width: fit-content;
@@ -312,13 +346,13 @@ header{
     margin-left: 40px;
     color: rgb(32, 32, 203);
     font-size: 20px;
-    padding:10px 2px 10px 5px;
+    padding:10px 5px 10px 5px;
     border-radius: 10px;
 }
 #lst21:hover{
     background-color: rgba(40, 40, 238, 0.258);
     color: white;
-    border: 3px solid black;
+    border: 3px solid white;
 }
 /* footer */
 
