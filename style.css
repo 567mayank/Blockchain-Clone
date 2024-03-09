@@ -1,0 +1,407 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* margin-bottom: 30px; */
+    text-decoration: none;
+}
+header{
+    background-color: #000055;
+    border-bottom: 1px solid white;
+    /* /* border-color: white; */
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 23px;
+    color: white;
+    padding: 0px 40px 0px 40px;
+    position: fixed;
+    z-index: 999;
+    width: -webkit-fill-available;
+}
+.nav{
+    display: inline-block;
+    color: white;
+}
+.hd1{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px 0px 40px;
+    margin-right: 20px;
+    align-items: center;
+}
+.hd2{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sear{
+    align-self: center;
+}
+#sear:hover{
+    color: rgba(255, 255, 255, 0.808);
+}
+#login{
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#login:hover{
+    color: rgba(255, 255, 255, 0.899);
+}
+#signup{
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+#signup:hover{
+    color: rgba(0, 0, 0, 0.704);
+}
+
+
+/* 2nd part */
+#mhd{
+    height: 650px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/687/185/231/blue-purple-color-blur-wallpaper-thumb.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#mhdin{
+    display: inline-block;
+}
+::placeholder{
+    color: white;
+}
+#msearch{
+    font-size: 15px;
+    color: white;
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(26, 48, 220, 0.2);
+    padding-left: 15px;
+    margin-right: 20px;
+}
+#msign{
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: rgb(0, 110, 255);
+}
+#msign:hover{
+    background-color: rgba(182, 86, 211, 0.237);
+    color: white;
+}
+
+/* <!-- second part overlapping --> */
+#overlap{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.over{
+    height: 150px;
+    width: 200px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0px 5px rgb(240, 239, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.overin1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 15px 0px 15px;
+}
+.by{
+    display: inline-block;
+    color: blue;
+    background-color: rgba(132, 30, 227, 0.2);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+}
+.by:hover{
+    background-color: rgba(132, 30, 227, 0.334);
+}
+.trad{
+    display: inline-block;
+    color: green;
+    background-color: rgba(37, 227, 30, 0.2);
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+}
+.trad:hover{
+    background-color: rgba(37, 227, 30, 0.471);
+}
+.overin2{
+    display: flex;
+    padding-left: 15px;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+/* part3 */
+
+#prt3{
+    background-color: rgb(236, 202, 251,0.2);
+    height: 800px;
+    margin: 0px 120px 0px 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 120px;
+}
+#prt31{
+    height: 80%;
+    width: 40%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:rgb(130, 59, 245) ;
+}
+#prt32{
+    height: 80%;
+    width: 40%;
+    display: inline-block;
+}
+.ins{
+    border: 2px solid plum;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px 0px 20px 10px;
+    font-size: 22px;
+}
+.prt312{
+    width: fit-content;
+    border: 2px solid rgb(130, 59, 245);
+    padding: 10px;
+    background-color: rgb(130, 59, 245);
+    color: white;
+    font-size: 21px;
+    border-radius: 15px;
+    /* border: none; */
+}
+.prt312:hover{
+    background-color: rgb(116, 34, 249);
+}
+/* part4 */
+#prt4{
+    background-color: rgba(117, 227, 252, 0.2);
+    height: 800px;
+    margin: 0px 120px 0px 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 120px;
+}
+#prt41{
+    height: 80%;
+    width: 40%;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:rgb(0, 147, 180) ;
+}
+#prt42{
+    height: 80%;
+    width: 40%;
+    display: inline-block;
+}
+.insi{
+    border: 2px solid rgb(147, 219, 245);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px 0px 20px 10px;
+    font-size: 22px;
+}
+.prt412{
+    width: fit-content;
+    /* border: 2px solid rgb(139, 226, 243); */
+    padding: 10px;
+    background-color: rgb(16, 130, 223);
+    color: white;
+    font-size: 21px;
+    border-radius: 15px;
+    border: none;
+}
+.prt412:hover{
+    background-color: rgb(6, 61, 106);
+}
+
+/* part 5 */
+#prt5{
+    background-color: #eff1f6;
+    height: 800px;
+    margin: 0px 120px 120px 120px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#prt51{
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
+#prt511{
+    display: inline-block;
+    background-color: rgb(166, 166, 166,0.4);
+    width: fit-content;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+}
+#prt514{
+    display: inline-block;
+    background-color: rgb(86, 86, 86);
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+#prt514:hover{
+    background-color: rgb(46, 45, 45);
+}
+.pr5{
+    margin: 15px 0px 15px 0px;
+}
+
+/* last */
+#lst{
+    background-color: rgb(1, 20, 70);
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+}
+.lst1{
+    display: inline-block;
+    color: white;
+}
+#lst21{
+    margin-left: 40px;
+    color: rgb(32, 32, 203);
+    font-size: 20px;
+    padding:10px 2px 10px 5px;
+    border-radius: 10px;
+}
+#lst21:hover{
+    background-color: rgba(40, 40, 238, 0.258);
+    color: white;
+    border: 3px solid black;
+}
+/* footer */
+
+/* fisrt part */
+.f1{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 150px 0px 150px;
+}
+.f11{
+    display: inline-block;
+    width: 100%;
+}
+#f111{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+.f12{
+    display: flex;
+    flex-direction: column;
+}
+.f121{
+    color: rgba(0, 0, 0, 0.553);
+    margin-bottom: 15px;
+    font-size: 19px;
+}
+.f121:hover{
+    color: rgba(0, 0, 0, 0.905);
+}
+.f122{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#ff1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+
+/* 2 part */
+.f2{
+    display: flex;
+    justify-content: center;
+}
+.f21{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: -80px;
+    border-radius: 25px;
+}
+.f211{
+    padding: 10px 10px 10px 0px;
+}
+
+
+/* extra sticky */
+#stick{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(78, 78, 249);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 50px;
+    left: 1390px;
+    color: white;
+}
+#stin{
+    font-size: 25px;
+    padding-right:3px;
+    padding-top: 2px;
+}
+#stick:hover{
+    background-color: white;
+    color: rgb(78, 78, 249);
+}
