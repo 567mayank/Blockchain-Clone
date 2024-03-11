@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(18, 29, 51);
+}
+#start{
+    background-color: rgb(18, 29, 51);
+    height: 150px;
+    background-image: url("	https://login.blockchain.com/img/bg-pattern.svg");
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startin{
+    display: inline-block;
+    color: white;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+#middle{
+    background-color: rgb(18, 29, 51);
+    height: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#midin{
+    display: inline-block;
+    width: 30%;
+    height: 65%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4px;
+}
+#m1{
+    display: inline-block;
+    height: 20%;
+    color: rgb(8, 20, 109);
+    font-size: 45px;
+    padding-top: 10px;
+    align-self:center;
+    font-weight: 600;
+}
+#m2{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#m21{
+    height: 40%;
+    padding: 5px 25px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#m211{
+    font-size: 17px;
+    padding-left: 2px;
+}
+#m212{
+    font-size: 18px;
+    width: 100%;
+    height: 60%;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+#m22{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 25px 5px 25px;
+}
+#m221{
+    background-color: rgba(36, 36, 197, 0.69);
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px 25px 15px 25px;
+    border-radius: 12px;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+#m222{
+    color: rgb(24, 24, 96);
+    padding-left: 5px;
+}
+
+#m3{
+    height: 20%;
+    color: black;
+    font-size: 20px;
+    align-self:center;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    font-weight: bolder;
+}
+#m31{
+    color: black;
+}
+#m32{
+    padding-left: 8px;
+    color:rgb(15, 15, 134);
+}
+
+
+/* last part */
+.coin{
+    background-color: rgb(18, 29, 51);
+    font-size: 40px;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: -100px;
+}
+#coin1{
+    animation:anime 15s linear 0s infinite;
+}
+#coin2{
+    animation:anime 15s linear 5s infinite;
+}
+#coin3{
+    animation:anime 15s linear 10s infinite;
+}
+@keyframes anime {
+    from{
+        transform: rotatey(360deg);
+        position: absolute;
+        left: -100px;
+        bottom: 15px;
+    }
+    to{
+        position: absolute;
+        left: 1500px;
+        bottom: 15px;
+    }
+}

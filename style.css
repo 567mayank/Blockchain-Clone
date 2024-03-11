@@ -1,13 +1,11 @@
 *{
     margin: 0%;
     padding: 0%;
-    /* margin-bottom: 30px; */
     text-decoration: none;
 }
 header{
     background-color: #000055;
     border-bottom: 1px solid white;
-    /* /* border-color: white; */
     height: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -438,4 +436,30 @@ header{
 #stick:hover{
     background-color: white;
     color: rgb(78, 78, 249);
+    border: 1px solid rgb(78, 78, 249);
+}
+
+.tooltip {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#stick {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(78, 78, 249);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    bottom: 50px;
+    left: 1390px;
+    color: white;
+    transition: all 0.3s ease;
 }
