@@ -66,6 +66,7 @@ header{
 }
 
 
+
 /* 2nd part */
 #mhd{
     height: 650px;
@@ -253,7 +254,7 @@ header{
     display: inline-block;
 }
 #prt42:hover{
-    animation: anime2 5s linear 0s 1;
+    animation: anime2 3s linear 0s 1;
 }
 @keyframes anime2{
     from{
@@ -275,7 +276,6 @@ header{
 }
 .prt412{
     width: fit-content;
-    /* border: 2px solid rgb(139, 226, 243); */
     padding: 10px;
     background-color: rgb(16, 130, 223);
     color: white;
@@ -308,7 +308,6 @@ header{
     width: fit-content;
     padding: 10px 5px 10px 5px;
     border-radius: 10px;
-    /* margin-bottom: 20px; */
 }
 #prt514{
     display: inline-block;
